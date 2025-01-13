@@ -1,0 +1,104 @@
+@font-face {
+    font-family: vazir;
+    src: url(Vazir.ttf);
+    src: url(Vazir.woff);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f85b;
+    text-align: center;
+    /* background-image: url("hero-bg.jpg"); */
+    font-family: vazir;
+}
+
+.row01{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+  
+    margin-right: 10px;
+}
+
+
+.row01 h3 {
+    text-align: center;
+    color: #632e05;
+    font-size: larger;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center-h3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+.row01 ul {
+    list-style: none;
+    padding: 0;
+}
+.row01 li {
+    float: right;
+    padding: 10px;
+    border-bottom: 1px solid #7b7a7a72;
+}
+/* .row01 li:last-child {
+  border: #2b2828;
+} */
+.row01 li span {
+    float: left;
+    color: #666666;
+}
+.list1{
+    border: 1px solid #a2a2a238;
+    box-shadow: 2px 2px 7px 7px rgba(144, 143, 143, 0.126);
+    min-width: 200px;
+
+    margin-bottom: 15px;
+    text-align: right;
+}
+.itm{
+    padding: 10px;
+    cursor: pointer;
+
+
+}
+.itm:hover{
+ font-weight: 750;
+ background-color: #c4c4c426;
+}
+
+.item-description {
+    margin-top: 10px;
+    font-weight: 400;
+    padding: 8px;
+    border-radius: 4px;
+}
+.item-description:hover{
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu {
+    width: 00px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
